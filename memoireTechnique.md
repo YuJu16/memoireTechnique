@@ -1,4 +1,4 @@
-# Mémoiree Technique 
+# Mémoire Technique 
 ## Table des matières
 1. [Introduction](#introduction)
 2. [Proposition technique](#proposition-technique)
@@ -12,7 +12,7 @@
 ## Introduction
 Concevoir un réseau complet pour un bâtiment d’entreprise.
 Présente le besoin du client, le type de bâtiment et les contraintes imposées.
-- Technologie choisie : Cizco
+- Technologie choisie : Cisco
 Explication de l'approche adoptée pour répondre aux exigences du projet.
 ---
 ## Proposition 
