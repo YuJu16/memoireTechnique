@@ -1,9 +1,8 @@
 # Mémoiree Technique 
 
 ## Table des matières
-1. [Introduction](#introduction)
+1. [Introduction](#Introduction)
 2. [Proposition technique](#proposition-technique)
-   - [Description de la topologie réseau choisie](#description-de-la-topologie-réseau-choisie)
 3. [Calculs techniques](#calculs-techniques)
 4. [Schémas](#schémas)
 5. [Maquette fonctionnelle](#maquette-fonctionnelle)
@@ -12,16 +11,14 @@
 
 ---
 
-## Introduction
+## 1. Introduction
 Concevoir un réseau complet pour un bâtiment d’entreprise.
 Présente le besoin du client, le type de bâtiment et les contraintes imposées.
 - Technologie choisie : Cizco
 Explication de l'approche adoptée pour répondre aux exigences du projet.
 ---
 
-## Proposition 
-
-## Proposition technique
+## 2. Proposition technique
 
 ### Description de la topologie réseau choisie
 Pour ce projet, nous avons opté pour une **topologie réseau hiérarchique en arborescence** afin de garantir une organisation claire et scalable. Cette structure se compose de trois niveaux distincts : **Core**, **Distribution**, et **Access**.
@@ -50,7 +47,7 @@ Le niveau Access connecte directement les équipements des utilisateurs finaux, 
 - **Redondance** : Grâce aux liens multiples entre les switches, le réseau reste opérationnel en cas de panne.
 - **Gestion simplifiée** : Chaque niveau ayant un rôle précis, le dépannage et la maintenance sont plus simples.
 
-### Adressage IP
+### 3. Adressage IP
 Pour garantir une gestion efficace du réseau, l’adressage IP a été soigneusement planifié en fonction des besoins de chaque VLAN. Voici les détails de l'adressage :
 - **VLANs** : Chaque département ou service se voit attribuer un VLAN unique pour isoler le trafic réseau et renforcer la sécurité.
 - **Réseau IP** : Chaque VLAN a son propre réseau IP pour faciliter la configuration et le routage.
