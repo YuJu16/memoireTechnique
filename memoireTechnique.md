@@ -171,3 +171,46 @@ Le réseau est donc dimensionné de manière à garantir que tous les équipemen
 
 ## Datasheets des équipements
 
+Voici les spécifications techniques importantes pour chaque équipement choisi pour le projet :
+
+### **C9130AXI-I** - Point d'accès WiFi 6
+- **Description** : Ce point d'accès est conçu pour les bureaux d'entreprise à forte densité d'utilisateurs. Il garantit une couverture sans fil optimale et une bonne connexion même dans les zones étendues. Il prend en charge le WiFi 6, offrant ainsi des vitesses plus rapides et une meilleure gestion des appareils connectés simultanément.
+- **Caractéristiques principales** :
+  - WiFi 6 (802.11ax)
+  - Support des bandes 2.4 GHz et 5 GHz
+  - Débit théorique maximal : jusqu'à 5.3 Gbps
+  - Gestion avancée du spectre radio pour une couverture optimale
+  - Sécurité renforcée avec WPA3
+
+### **C9200L-48P-4G-E** - Switch Cisco 48 ports PoE
+- **Description** : Le **C9200L-48P-4G-E** est un switch de niveau entreprise avec 48 ports Ethernet PoE et 4 ports uplink haute capacité (de 1G à 10G). Il est idéal pour les réseaux en expansion, offrant une gestion facile des équipements PoE (comme les points d'accès Wi-Fi, les caméras de surveillance, et plus).
+- **Caractéristiques principales** :
+  - 48 ports Ethernet PoE+ (jusqu'à 370 W PoE total)
+  - 4 ports uplink 1G à 10G
+  - Capacité de gestion de VLANs et de sécurité avancée
+  - Optimisé pour les environnements à haute densité
+  - Support de l'automatisation et de la gestion via Cisco DNA Center
+
+### **N9K-C9336C-FX2** - Switch Core Cisco Nexus 9000
+- **Description** : Le **N9K-C9336C-FX2** est un switch cœur de réseau ultra-performant avec une latence très faible, conçu pour supporter de lourds trafics dans les datacenters ou les réseaux à très haute capacité. Il est adapté pour les réseaux d'entreprise de grande taille, offrant des performances exceptionnelles.
+- **Caractéristiques principales** :
+  - 36 ports 100GbE et 48 ports 25GbE
+  - Latence ultra-faible pour des performances maximales
+  - Support de la virtualisation du réseau avec VXLAN et EVPN
+  - Idéal pour les environnements de cloud hybride et les réseaux à fort volume de données
+
+## Conclusion
+
+Ce projet de conception de réseau pour un bâtiment d’entreprise vise à offrir une solution robuste, évolutive et efficace. La topologie en **arborescence hiérarchique** choisie permet d’assurer une gestion claire du réseau, avec une séparation entre les niveaux **Core**, **Distribution**, et **Access** pour garantir des performances optimales et une scalabilité future.
+
+### Avantages de la proposition :
+- **Scalabilité** : La solution choisie permet une expansion facile du réseau, avec des équipements capables de supporter un nombre accru d'appareils et un trafic réseau plus élevé sans perturber la performance.
+- **Coût** : L'utilisation d'équipements Cisco garantit un rapport qualité-prix optimal, en combinant haute performance et fiabilité. De plus, le recours à la technologie PoE réduit le besoin en alimentation séparée, ce qui simplifie l'installation et réduit les coûts.
+- **Efficacité** : Les équipements choisis sont adaptés pour gérer de manière fluide le trafic réseau, même à haute densité d'utilisateurs, tout en assurant une faible latence et une couverture sans fil optimale.
+
+### Perspectives ou améliorations possibles :
+- **Améliorations de la sécurité** : Des politiques de sécurité supplémentaires pourraient être mises en place, telles que l'intégration d'une segmentation encore plus poussée des VLANs ou l'utilisation de solutions de détection d'intrusions.
+- **Optimisation de la gestion du réseau** : L’intégration de la gestion via des outils comme **Cisco DNA Center** pourrait permettre d’automatiser davantage la configuration et la gestion du réseau.
+- **Évolution vers la 5G** : Avec l'essor des réseaux mobiles 5G, une évolution vers cette technologie pourrait être envisagée pour des connexions ultra-rapides et pour l’Internet des objets (IoT) à grande échelle.
+
+---
